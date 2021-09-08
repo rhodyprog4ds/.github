@@ -1,7 +1,7 @@
 ---
-name: Question
-about: use this to ask a private question about the assigment
-title: 'question: [topic of your question]'
+name: Extension Requst
+about: use this to request an extension on this assignment or portfolio check
+title: 'Extension Request'
 labels: 'extension'
 assignees: brownsarahm, 
 ---
