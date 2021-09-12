@@ -3,7 +3,7 @@ name: Need help with an error
 about: Create a report to help us help you
 title: ''
 labels: ''
-assignees: brownsarahm, 
+assignees: @rhodyprog4ds/fall21instructors 
 
 ---
 
