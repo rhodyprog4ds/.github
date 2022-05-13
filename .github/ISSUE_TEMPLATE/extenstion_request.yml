@@ -39,7 +39,7 @@ body:
       description: Describe how you will ensure that this extension will not hinder your ability to complete the next assignment on time.
     validations:
       required: true
-  - type: checkkboxes
+  - type: checkboxes
     id: scheduling
     attributes:
       label: Make sure that you have done all of the important record keeping 
