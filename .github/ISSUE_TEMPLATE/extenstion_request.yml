@@ -1,0 +1,52 @@
+name: Extension Request
+description: Request an Extension
+title: "Extension Request"
+labels: ["request"]
+assignees: brownsarahm
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submitting work on time, or communicating openly about the need for an extension is an important skill. 
+        This form will guide you through what I look for in terms of communication on an extension request.  
+        As long as this is submitted by 6pm on the due date, after submission you can proceed as if your extension
+        is granted. In the very rare event that it is not, you will get a reply to this issue. 
+  - type: input
+    id: intro
+    attributes:
+      label: When will submit the completed assignment
+      description: Please use a complete date YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: time
+    attributes:
+      label: What additional work will you complete?
+      description: Describe what you have done and what you will add.  
+    validations:
+      required: true
+  - type: textarea
+    id: scheduling
+    attributes:
+      label: Why is this extension important to your learning?
+      description: Describe how this will impact how much you will learn, not only your grade. 
+    validations:
+      required: true
+  - type: textarea
+    id: scheduling
+    attributes:
+      label: How will you keep up with the next assignment
+      description: Describe how you will ensure that this extension will not hinder your ability to complete the next assignment on time.
+    validations:
+      required: true
+  - type: checkkboxes
+    id: scheduling
+    attributes:
+      label: Make sure that you have done all of the important record keeping 
+      description: Confirm that you have completed all of the following
+      options:
+        - label: This issue is on the assignment repository for the assignment I need the extension on
+        - label: I have linked the feedback pull request
+        - label: I have pushed the partial work that I have completed so far
+    validations:
+      required: true
