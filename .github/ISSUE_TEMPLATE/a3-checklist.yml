@@ -1,0 +1,61 @@
+name: A3 Planning check  (working solo)
+description: Get plan feedback on A3
+title: "Checklist planning"
+assignees:
+  - brownsarahm
+  - surbhir08
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Assuming you have a DataFrame called `df` and it has columns:
+        - categorical `cat1`, `cat2`
+        - numeric: `num1`, `num2`
+
+        write a short code excerpt, for each one or the name of the method you think
+        if you are really stuck on any, ask a follow up question
+        hint: use back tick for formatting around code
+
+        We will get notified when you submit so you can get early feedback on this before
+        you spend too much time. You will still need to make sure your questions match these,
+        but ensuring you know the code will help. 
+  - type: textarea
+    id: r1
+    attributes:
+      label: Overall summary statistics grouped by a categorical variable
+      description: write the code constuct you think or a follow up question
+  - type: textarea
+    id: r2
+    attributes:
+      label: A single statistic grouped by a categorical variable
+      description: write the code constuct you think or a follow up question
+  - type: textarea
+    id: r3
+    attributes:
+      label: at least one plot that uses 3 total variables
+      description: write the code constuct you think or a follow up question
+  - type: textarea
+    id: r4
+    attributes:
+      label: a plot and summary table that convey the same information. This can be one statistic or many.
+      description: write the code constuct you think or a follow up question
+  - type: textarea
+    id: r5
+    attributes:
+      label: overall summary statistics
+      description: write the code constuct you think or a follow up question
+  - type: textarea
+    id: r6
+    attributes:
+      label: two individual summary statistics for one variable
+      description: write the code constuct you think or a follow up question
+  - type: textarea
+    id: r7
+    attributes:
+      label: one summary statistic grouped by two categorical variables
+      description: write the code constuct you think or a follow up question
+  - type: textarea
+    id: r8
+    attributes:
+      label: a figure with a grid of subplots that correspond to two categorical variables
+      description: write the code constuct you think or a follow up question
