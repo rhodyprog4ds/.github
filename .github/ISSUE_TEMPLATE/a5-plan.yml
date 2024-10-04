@@ -1,0 +1,48 @@
+name: A5 Planning check  
+description: Get plan feedback on Webscraping
+title: "A5-Web scraping plan"
+assignees:
+  - brownsarahm
+  - surbhir08
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Answer the following to get feedback on your plan. Complete this by end day on 
+        Monday in order to have time to get a response and complete your assignment on 
+        time. 
+  - type: textarea
+    id: eda
+    attributes:
+      label: What is the EDA question you want to be able to answer? 
+      description: this can be a detailed question or a general - how do these things relate
+  - type: textarea
+    id: data
+    attributes:
+      label: What do you think your dataset should look like?
+      description: either write in sort of fake data with the structure as a table or lis the columns and what each row should repressent
+  - type: checkboxes
+    id: datasources
+    attributes:
+      label: How will you gather data?
+      description: check all that apply, at least two are required
+      options: 
+        - label: scraping a website with no tables
+        - label: crawling to additional pages from a single hardcoded URL
+        - label: using `pd.read_html` to get data and scraping to pick out the right table
+        - label: loading data distributed in a tabular format(csv,excel, json, etc)
+  - type: textarea
+    id: sourcequestion
+    attributes:
+      label: What questions/challenges do you have with finding data sources
+      description: if you are unsure about the above, fill in questions here
+  - type: checkboxes
+    id: combine
+    attributes:
+      label: How will you combine your data sources?
+      description: only one is required, but it must be right based on your choices above
+      options: 
+        - label: with the `pd.DataFrame` constructor from scraped components
+        - label: concat 
+        - label: merge
+
