@@ -1,11 +1,11 @@
 blank_issues_enabled: true
 contact_links:
   - name: Assignment Clarification Questions
-    url: https://github.com/rhodyprog4ds/BrownFall24/issues
+    url: https://github.com/rhodyprog4ds/BrownFall25/issues
     about: Please ask general questions that might be helpful to your peers on the course website repo so that all can see
   - name: E-mail TA
-    url: mailto:surbhi_rathore@uri.edu
-    about: use this to ask Surhbi for assistance privately (use sparingly)
+    url: mailto:logan_mccue@uri.edu
+    about: use this to ask Logan for assistance privately (use sparingly eg for a meeting bc you cannot attend office hours)
   - name: E-mail Professor Brown
     url: mailto:brownsarahm@uri.edu
     about: use this to ask Professor Brown for assistance privately (use sparingly)
