@@ -4,7 +4,6 @@ about: Create a report to help us help you
 title: ''
 labels: ''
 assignees: @rhodyprog4ds/fall21instructors 
-
 ---
 
 **Describe the bug**
